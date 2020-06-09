@@ -6,18 +6,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<style>
-
+body{
+    background-color: #073b4c;
+}
 fieldset {
-  background-color: #e8e8e8;
-  border: 2px solid gray;
+  background-color: #073b4c;
+  border: 2px solid #118ab2;
   padding: 10px;
   
 }
 
 #contenedor {
-  background-color: #eeeeee;
+  background-color: #118ab2;
   color: #131313;
   padding: 5px 10px;
+}
+h1{
+    color: #ffd166;
+}
+label{
+    color:#06d6a0;
+}
+.titulo{
+    color:#ffd166;
 }
 </style>
 </head>
@@ -28,110 +39,108 @@ fieldset {
     
     <form action="">
         <div class="container" id="contenedor">
-            <h1 class="text-info text-center">Formulario.</h1>
+            <h1 class=" text-center">Formulario.</h1>
             <div class="row justify-content-around">
                 <div class="col-8 justify-content-center">
                     
                 </div>
                 <div class="col-5 m-3 p-3">
                     <fieldset>
-                        <label>Tus Datos</label>
+                        <label class="titulo" tabindex="1">Tus Datos</label>
                         <div class="form-group">
                             <label for="txtNombre" class="form-label">Nombre</label>
-                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" tabindex="1">
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" tabindex="2">
                         </div>
                         <div class="form-group">
                             <label for="txtApellidos" class="form-label">Apellidos</label>
-                            <input type="text" id="txtApellidos" name="txtApellidos" class="form-control" tabindex="2">
+                            <input type="text" id="txtApellidos" name="txtApellidos" class="form-control" tabindex="3">
                         </div>
                         <div class="form-group">
                             <label for="txtTelefono" class="form-label">Telefono</label>
-                            <input type="text" id="txtTelefono" name="txtTelefono" class="form-control" tabindex="3">
+                            <input type="text" id="txtTelefono" name="txtTelefono" class="form-control" tabindex="4">
                         </div>
                         <div class="form-group">
                             <label for="txtEmail" class="form-label">Email</label>
-                            <input type="text" id="txtEmail" name="txtEmail" class="form-control" tabindex="4">
+                            <input type="text" id="txtEmail" name="txtEmail" class="form-control" tabindex="5">
                         </div>
                         <fieldset>
-                            <label  tabindex="5">¿Que genero te identifica?</label>
+                            <label  tabindex="6">¿Que genero te identifica?</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1" name="radio" class="form-check-input" tabindex="6">
+                                <input type="radio" value="1" id="rad1" name="radio" class="form-check-input">
                                 <label for="rad1" class="form-check-label" aria-label="Hombre">Hombre</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2" name="radio" class="form-check-input" tabindex="7">
+                                <input type="radio" value="2" id="rad2" name="radio" class="form-check-input">
                                 <label for="rad2" class="form-check-label" aria-label="Mujer">Mujer</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad3" name="radio" class="form-check-input" tabindex="8">
+                                <input type="radio" value="3" id="rad3" name="radio" class="form-check-input">
                                 <label for="rad3" class="form-check-label" aria-label="Trans">Trans</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad4" name="radio" class="form-check-input" tabindex="9">
+                                <input type="radio" value="3" id="rad4" name="radio" class="form-check-input">
                                 <label for="rad3" class="form-check-label" aria-label="Otre">Otre</label>
                             </div>
                         </fieldset>
                     </fieldset>
                 </div>
                 <div class="col-5 m-3 p-3">
-                    <fieldset>
-                        <img src="img/formulario.jpg" alt="Esto es una imagen de Formulario" width="400px">
-                    </fieldset>
+                    <img src="img/formulario.jpg" alt="Esto es una imagen de Formulario" width="400px">
                 </div>
                 <div class="col-5 m-3 p-3">
                     <fieldset>
-                        <label>¿Como es tu casa?</label>
+                        <label class="titulo" tabindex="7">¿Como es tu casa?</label>
                    
                         <fieldset>
-                            <label>Tipo de casa</label>
+                            <label  tabindex="8">Tipo de casa</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1casa" name="casa" class="form-check-input" tabindex="10">
-                                <label for="rad1" class="form-check-label">Piso</label>
+                                <input type="radio" value="1" id="rad1casa" name="casa" class="form-check-input">
+                                <label for="rad1" class="form-check-label" aria-label="Piso">Piso</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2casa" name="casa" class="form-check-input" tabindex="11">
-                                <label for="rad2" class="form-check-label">Adosado</label>
+                                <input type="radio" value="2" id="rad2casa" name="casa" class="form-check-input">
+                                <label for="rad2" class="form-check-label" aria-label="Adosado">Adosado</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad3casa" name="casa" class="form-check-input" tabindex="12">
-                                <label for="rad3" class="form-check-label">Casa</label>
+                                <input type="radio" value="3" id="rad3casa" name="casa" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="Casa">Casa</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad4casa" name="casa" class="form-check-input" tabindex="13">
-                                <label for="rad3" class="form-check-label">Otre</label>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <labellabel>Terreno</label>
-                            <div class="form-check">
-                                <input type="radio" value="1" id="rad1terreno" name="terreno" class="form-check-input" tabindex="14">
-                                <label for="rad1" class="form-check-label">Si</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" value="2" id="rad2terreno" name="terreno" class="form-check-input" tabindex="15">
-                                <label for="rad2" class="form-check-label">No</label>
+                                <input type="radio" value="3" id="rad4casa" name="casa" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="Otro">Otro</label>
                             </div>
                         </fieldset>
                         <fieldset>
-                            <label>Garage</label>
+                            <label  tabindex="9">Terreno</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1garage" name="garage" class="form-check-input" tabindex="16">
-                                <label for="rad1" class="form-check-label">Si</label>
+                                <input type="radio" value="1" id="rad1terreno" name="terreno" class="form-check-input">
+                                <label for="rad1" class="form-check-label"aria-label="Si">Si</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2garage" name="garage" class="form-check-input" tabindex="17">
-                                <label for="rad2" class="form-check-label">No</label>
+                                <input type="radio" value="2" id="rad2terreno" name="terreno" class="form-check-input">
+                                <label for="rad2" class="form-check-label"aria-label="No">No</label>
                             </div>
                         </fieldset>
                         <fieldset>
-                            <label>Trastero</label>
+                            <label  tabindex="10">Garage</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1trastero" name="trastero" class="form-check-input" tabindex="18">
-                                <label for="rad1" class="form-check-label">Si</label>
+                                <input type="radio" value="1" id="rad1garage" name="garage" class="form-check-input">
+                                <label for="rad1" class="form-check-label"aria-label="Trans">Si</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2trastero" name="trastero" class="form-check-input" tabindex="19">
-                                <label for="rad2" class="form-check-label">No</label>
+                                <input type="radio" value="2" id="rad2garage" name="garage" class="form-check-input">
+                                <label for="rad2" class="form-check-label"aria-label="No">No</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <label tabindex="11">Trastero</label>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1trastero" name="trastero" class="form-check-input">
+                                <label for="rad1" class="form-check-label"aria-label="Trans">Si</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2trastero" name="trastero" class="form-check-input">
+                                <label for="rad2" class="form-check-label"aria-label="No">No</label>
                             </div>
                         </fieldset>
                         
@@ -139,76 +148,80 @@ fieldset {
                 </div>
                 <div class="col-5 m-3 p-3">
                     <fieldset>
-                        <label>Caracteristicas</label>
+                        <label class="titulo"  tabindex="12">Caracteristicas</label>
                         <fieldset>
-                            <label>Habitaciones</label>
+                            <label  tabindex="13">Habitaciones</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1habitaciones" name="habitaciones" class="form-check-input" tabindex="20">
-                                <label for="rad1" class="form-check-label">1</label>
+                                <input type="radio" value="1" id="rad1habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad1" class="form-check-label" aria-label="1">1</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2habitaciones" name="habitaciones" class="form-check-input" tabindex="21">
-                                <label for="rad2" class="form-check-label">2</label>
+                                <input type="radio" value="2" id="rad2habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad2" class="form-check-label" aria-label="2">2</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad3habitaciones" name="habitaciones" class="form-check-input" tabindex="22">
-                                <label for="rad3" class="form-check-label">3</label>
+                                <input type="radio" value="3" id="rad3habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="3">3</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad4habitaciones" name="habitaciones" class="form-check-input" tabindex="23">
-                                <label for="rad3" class="form-check-label">+3</label>
+                                <input type="radio" value="3" id="rad4habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="mas de 3">+3</label>
                             </div>
                         </fieldset>
                         <fieldset>
-                            <label>Baños</label>
+                            <label  tabindex="14">Baños</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1banos" name="banos" class="form-check-input" tabindex="24">
-                                <label for="rad1" class="form-check-label">1</label>
+                                <input type="radio" value="1" id="rad1banos" name="banos" class="form-check-input">
+                                <label for="rad1" class="form-check-label" aria-label="1">1</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2banos" name="banos" class="form-check-input" tabindex="25">
-                                <label for="rad2" class="form-check-label">2</label>
+                                <input type="radio" value="2" id="rad2banos" name="banos" class="form-check-input">
+                                <label for="rad2" class="form-check-label" aria-label="2">2</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad3banos" name="banos" class="form-check-input" tabindex="26">
-                                <label for="rad3" class="form-check-label">3</label>
+                                <input type="radio" value="3" id="rad3banos" name="banos" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="3">3</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad4banos" name="banos" class="form-check-input" tabindex="27">
-                                <label for="rad3" class="form-check-label">+3</label>
+                                <input type="radio" value="3" id="rad4banos" name="banos" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="mas de 3">+3</label>
                             </div>
                         </fieldset>
                         <fieldset>
-                            <label>Otras caractristicas</label>
+                            <label  tabindex="15">Otras caractristicas</label>
                             <div class="form-check">
-                                <input type="radio" value="1" id="rad1carac" name="carac" class="form-check-input" tabindex="28">
-                                <label for="rad1" class="form-check-label">Calefaccion central</label>
+                                <input type="radio" value="1" id="rad1carac" name="carac" class="form-check-input">
+                                <label for="rad1" class="form-check-label" aria-label="Caleentral">Calefaccion central</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="2" id="rad2carac" name="carac" class="form-check-input" tabindex="29">
-                                <label for="rad2" class="form-check-label">Gas</label>
+                                <input type="radio" value="2" id="rad2carac" name="carac" class="form-check-input">
+                                <label for="rad2" class="form-check-label" aria-label="Gas">Gas</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad3carac" name="carac" class="form-check-input" tabindex="30">
-                                <label for="rad3" class="form-check-label">Internet</label>
+                                <input type="radio" value="3" id="rad3carac" name="carac" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="Iinternet">Internet</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" value="3" id="rad4carac" name="carac" class="form-check-input" tabindex="31">
-                                <label for="rad3" class="form-check-label">Terraza</label>
+                                <input type="radio" value="3" id="rad4carac" name="carac" class="form-check-input">
+                                <label for="rad3" class="form-check-label" aria-label="terraza">Terraza</label>
                             </div>
                         </fieldset>
                     </fieldset>
                 </div>
                 
                 <div class="col-12 m-3 p-3">
-                    <label for="txtcomentario">Comentario</label>
-                    <textarea name="txtcomentario" id="txtcomentario" class="form-control col-12" tabindex="32"></textarea>
+                    <label for="txtcomentario" class="titulo">Comentario</label>
+                    <textarea name="txtcomentario" id="txtcomentario" class="form-control col-12"  tabindex="16"></textarea>
                 </div>
                 <div class="col-12 m-3 p-3">
-                    <input type="submit" class="btn btn-info col-12" value="Enviar" tabindex="33">
+                    <input type="submit" class="btn btn-warning col-12" value="Enviar"  tabindex="17">
+                </div>
+                <div class="col-5 m-3 p-3">
+                    <iframe width="560" height="315" aria-label="Video de Youtube" alt="Esto es un video que nada tierne que ver"  src="https://www.youtube.com/embed/DnxCZ6Ugn4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </form>
+    
 </body>
 </html>
