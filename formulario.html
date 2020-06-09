@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Usabilidad. Formulario Lectura de Input</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<style>
+
+fieldset {
+  background-color: #e8e8e8;
+  border: 2px solid gray;
+  padding: 10px;
+  
+}
+
+#contenedor {
+  background-color: #eeeeee;
+  color: #131313;
+  padding: 5px 10px;
+}
+</style>
+</head>
+<header>
+	
+</header>
+<body>
+    
+   65
+    <form action="">
+        <div class="container" id="contenedor">
+            <h1 class="text-info text-center">Formulario.</h1>
+            <div class="row justify-content-around">
+                <div class="col-8 justify-content-center">
+                    
+                </div>
+                <div class="col-5 m-3 p-3">
+                    <fieldset>
+                        <legend>Tus Datos</legend>
+                        <div class="form-check">
+                            <legend for="txtNombre" class="form-check-label">Nombre</legend>
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" aria-label="name">
+                        </div>
+                        <div class="form-check">
+                            <label for="txtApellidos" class="form-check-label">Apellidos</label>
+                            <input type="text" id="txtApellidos" name="txtApellidos" class="form-control">
+                        </div>
+                        <div class="form-check">
+                            <label for="txtTelefono" class="form-check-label">Telefono</label>
+                            <input type="text" id="txtTelefono" name="txtTElefono" class="form-control">
+                        </div>
+                        <div class="form-check">
+                            <label for="txtEmail" class="form-check-label">Email</label>
+                            <input type="text" id="txtEmail" name="txtEmail" class="form-control">
+                        </div>
+                        <fieldset>
+                            <legend>¿Que genero te identifica?</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1" name="radio" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Hombre</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2" name="radio" class="form-check-input">
+                                <label for="rad2" class="form-check-label">Mujer</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad3" name="radio" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Trans</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad4" name="radio" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Otre</label>
+                            </div>
+                        </fieldset>
+                    </fieldset>
+                </div>
+                <div class="col-5 m-3 p-3">
+                    <fieldset>
+                        <img src="img/formulario.jpg" alt="Esto es una imagen de Formulario" width="400px">
+                    </fieldset>
+                </div>
+                <div class="col-5 m-3 p-3">
+                    <fieldset>
+                        <legend>¿Como es tu casa?</legend>
+                   
+                        <fieldset>
+                            <legend>Tipo de casa</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1casa" name="casa" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Piso</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2casa" name="casa" class="form-check-input">
+                                <label for="rad2" class="form-check-label">Adosado</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad3casa" name="casa" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Casa</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad4casa" name="casa" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Otre</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Terreno</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1terreno" name="terreno" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Si</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2terreno" name="terreno" class="form-check-input">
+                                <label for="rad2" class="form-check-label">No</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Garage</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1garage" name="garage" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Si</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2garage" name="garage" class="form-check-input">
+                                <label for="rad2" class="form-check-label">No</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Trastero</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1trastero" name="trastero" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Si</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2trastero" name="trastero" class="form-check-input">
+                                <label for="rad2" class="form-check-label">No</label>
+                            </div>
+                        </fieldset>
+                        
+                    </fieldset>
+                </div>
+                <div class="col-5 m-3 p-3">
+                    <fieldset>
+                        <legend>Caracteristicas</legend>
+                        <fieldset>
+                            <legend>Habitaciones</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad1" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad2" class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad3habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad3" class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad4habitaciones" name="habitaciones" class="form-check-input">
+                                <label for="rad3" class="form-check-label">+3</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Baños</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1banos" name="banos" class="form-check-input">
+                                <label for="rad1" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2banos" name="banos" class="form-check-input">
+                                <label for="rad2" class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad3banos" name="banos" class="form-check-input">
+                                <label for="rad3" class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad4banos" name="banos" class="form-check-input">
+                                <label for="rad3" class="form-check-label">+3</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Otras caractristicas</legend>
+                            <div class="form-check">
+                                <input type="radio" value="1" id="rad1carac" name="carac" class="form-check-input">
+                                <label for="rad1" class="form-check-label">Calefaccion central</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="2" id="rad2carac" name="carac" class="form-check-input">
+                                <label for="rad2" class="form-check-label">Gas</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad3carac" name="carac" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Internet</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" value="3" id="rad4carac" name="carac" class="form-check-input">
+                                <label for="rad3" class="form-check-label">Terraza</label>
+                            </div>
+                        </fieldset>
+                    </fieldset>
+                </div>
+                
+                <div class="col-12 m-3 p-3">
+                    <label for="txtcomentario">Comentario</label>
+                    <textarea name="txtcomentario" id="txtcomentario" class="form-control col-12"></textarea>
+                </div>
+                <div class="col-12 m-3 p-3">
+                    <input type="submit" class="btn btn-info col-12" value="Enviar">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
