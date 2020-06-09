@@ -1,5 +1,5 @@
-# CheckBox-RadioButton
-Usabilidad y accesibilidad. 
+# Usabilidad y accesibilidad. 
+
 ## Ejercicio de CheckBox y RadioButtons
 
 ![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/check.png)
