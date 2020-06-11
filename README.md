@@ -9,5 +9,8 @@
 ### formulario.html
 ![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/formulario.png)
 
+## Ejercicio Semantica
+### semantica.html
+![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/semantica.png)
 
 #### Nazaret 2020.
