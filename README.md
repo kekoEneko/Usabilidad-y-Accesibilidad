@@ -15,6 +15,6 @@
 
 ## Ejercicio Realidad Virtual
 ### realidad.html
-![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/realidad.png)
+![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/realidadVirtual.png)
 
 #### Nazaret 2020.
