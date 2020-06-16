@@ -21,4 +21,7 @@
 ### w3css.html
 ![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/w3css.png)
 
+## Ejercicio Fixed-Menu
+### fixedmenu.html
+![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/fixedmenu.png)
 #### Nazaret 2020.
