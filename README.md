@@ -17,4 +17,8 @@
 ### realidad.html
 ![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/realidadVirtual.png)
 
+## Ejercicio W3.CSS
+### w3css.html
+![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/w3css.png)
+
 #### Nazaret 2020.
