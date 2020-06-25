@@ -24,4 +24,9 @@
 ## Ejercicio Fixed-Menu
 ### fixedmenu.html
 ![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/fixedmenu.png)
+
+## Ejercicio Scrum
+### 
+![Index](http://nsoing.zapto.org/usabilidad/ejercicios/img/scrum.png)
+
 #### Nazaret 2020.
